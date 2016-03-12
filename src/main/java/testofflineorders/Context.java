@@ -16,9 +16,9 @@ public class Context {
     public DriverManagerDataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("oracle.jdbc.driver.OracleDriver");
-        dataSource.setUrl("jdbc:oracle:thin:@10.49.197.116:1522:mcpsdb");
-        dataSource.setUsername("MCPS_DEV");
-        dataSource.setPassword("TC*\"h9`i1h}@=RB");
+        dataSource.setUrl("jdbc:oracle:thin:@ip:port:mcpsdb");
+        dataSource.setUsername("test");
+        dataSource.setPassword("test");
         return dataSource;
     }
 
